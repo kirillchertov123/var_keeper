@@ -17,7 +17,7 @@ jobs:
 
   integration_testing:
     runs-on: ubuntu-latest
-    container: python:3.10.9-slim
+    container: python:3.10.6-slim
     services:
       db:
         image: mysql
